@@ -1,0 +1,18 @@
+.button{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border:0px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  cursor:pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.button:hover,
+.button:active{
+  background-color: mediumpurple;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
