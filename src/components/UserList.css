@@ -1,0 +1,16 @@
+.input_list {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 30rem;
+  border-radius: 10px;
+  list-style: none;
+  /*display: flex;*/
+}
+
+.input_list li{
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
