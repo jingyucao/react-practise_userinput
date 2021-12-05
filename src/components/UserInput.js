@@ -13,14 +13,15 @@ const UserInput = (props) => {
     setUserAge(event.target.value);
   };
 
-
-  const submitHandler=(event)=>{
+  const submitHandler = (event) => {
 
     event.preventDefault();
-    const enteredUserData={
-      name:enteredUserName,
-      age:enteredUserAge,
+    const enteredUserData = {
+      name: enteredUserName,
+      age: enteredUserAge,
+      key: Math.random().toString(),
     };
+
     props.userDataHandler(enteredUserData);
 
     setUserName('');
