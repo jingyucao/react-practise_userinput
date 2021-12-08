@@ -1,8 +1,9 @@
 .button{
   background-color: rebeccapurple;
+  font:inherit;
   color: white;
-  padding: 0.5rem 1.5rem;
-  border:0px;
+  padding: 0.25rem 1rem;
+  border:1px solid rebeccapurple;
   box-shadow: 0 0 4px rgba(0,0,0,0.3);
   cursor:pointer;
 }
@@ -14,5 +15,5 @@
 .button:hover,
 .button:active{
   background-color: mediumpurple;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  border-color: mediumpurple;
 }

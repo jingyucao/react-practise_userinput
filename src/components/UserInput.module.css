@@ -1,0 +1,26 @@
+.input_form {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.input_form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input_form input {
+  font: inherit;
+  display: block;
+  border:1pt solid lightgray ;
+  padding: 0.15rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.input_form input:focus{
+  outline: none;
+  border-color: #4f005f;
+}

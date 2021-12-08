@@ -1,18 +1,15 @@
-import './App.css';
 import UserInput from "./components/UserInput";
 import UserList from "./components/UserList";
-import {useState} from 'react';
+import { useState } from 'react';
 
 function App() {
 
-
-
- const [userData, setUserData]=useState([]);
+  const [userData, setUserData] = useState([]);
 
   const addUserDataHandler = (enteredUserData) => {
-    setUserData ((prevData)=>{
-      return(
-        [enteredUserData,...prevData]
+    setUserData((prevData) => {
+      return (
+        [enteredUserData, ...prevData]
       )
     })
   };
